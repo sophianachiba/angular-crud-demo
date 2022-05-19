@@ -1,7 +1,13 @@
 # Angular 11 CRUD application example with Web API
 
-export NODE_OPTIONS=--openssl-legacy-provider
+This is a front end demo using angular.
+It needs to be used in conjonction with its backend (see below).
+
+The App has a basic CRUD operations.
+
+The project contains a dockerfile in order to build its docker image.
 ## Development server
+export NODE_OPTIONS=--openssl-legacy-provider
 
 Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`. The app will automatically reload if you change any of the source files.
 
